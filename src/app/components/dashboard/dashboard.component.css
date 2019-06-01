@@ -1,0 +1,43 @@
+.dashboard-wrapper{
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto;
+    height: 100%;
+    
+}
+
+.navbar{
+    background-color:#6D929B;
+    border-right: 1px solid #6D929B;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.content{
+    background-color: #F5FAFA;
+}
+.profile{
+    margin-top: 40px;
+    align-self: center;
+    border-radius: 100px;
+    width: 150px;
+    border: 1px solid #F5FAFA;
+}
+.listButtons{
+    margin-top: 20px;
+    border-top: 1px solid #F5FAFA;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+.listItem{
+    border-bottom: 1px solid #F5FAFA;
+    height: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.listItem:hover{
+    background-color: #F5FAFA;
+}

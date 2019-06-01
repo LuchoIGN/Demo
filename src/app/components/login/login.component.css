@@ -3,19 +3,21 @@
     flex-direction: column;
     background-color: rgb(210, 224, 224);
     position: absolute;
-    left: 50%;
-    top: 35%;
+    left: 40%;
+    top:8%;
     width: 400px;
-    height: 500px;
+    height: 550px;
     border: 1px solid #6D929B;
-    margin-left: -200px;
+    /* margin-left: -200px; */
     /* -1/2 width */
-    margin-top: -250px;
+    /* margin-top: -250px; */
     /* -1/2 height */
     -webkit-box-shadow: 5px 5px 3px -3px #000000;
     box-shadow: 5px 5px 3px -3px #000000;
 }
-
+.lgbutton{
+    width: 80px;
+}
 .fa-shopping-cart {
     align-self: center;
     margin-top: 20px;
@@ -64,4 +66,29 @@ div>input {
     border: 1px solid #6D929B;
     background-color: rgb(210, 224, 224);
     color: rgb(64, 99, 107);
+}
+
+.socialLogin{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin-top: 15px;
+}
+button{
+    margin-bottom: 10px;
+}
+.facebook{
+    background-color: #3b5998;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 30px;
+}
+.google{
+    background-color: #d62d20;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 30px;
 }

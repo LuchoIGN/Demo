@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchComponent } from './components/content/search/search.component';
 import { CompletionComponent } from './components/content/completion/completion.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CompletionComponent } from './components/content/completion/completion.
     LoginComponent,
     NavbarComponent,
     SearchComponent,
-    CompletionComponent
+    CompletionComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

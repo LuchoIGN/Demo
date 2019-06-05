@@ -46,7 +46,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" >
           <div class="card-body">
             <ul class="list-group">
-              <li class="list-group-item d-flex align-items-center" *ngFor="let compra of cart['Carrefour']['compras']">
+              <li class="list-group-item d-flex align-items-center" *ngFor="let compra of cart['Dia']['compras']">
                 {{compra.nombre}} - {{compra.marca}}
                 <span class="badge badge-primary badge-pill"> {{compra.cantidad}}</span>
                 <span class="ml-auto">$ {{compra.precio*compra.cantidad}}</span>

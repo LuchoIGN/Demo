@@ -37,7 +37,9 @@
     height: 30px;
     padding-top: 5px;
     cursor: pointer;
+    color:#F5FAFA;
 }
 .listItem:hover{
     background-color: #F5FAFA;
+    color: #6D929B;
 }

@@ -11,3 +11,27 @@
 a{
     text-decoration: none;
 }
+
+.btn{
+    border-radius: 30px;
+    background-color: #F5FAFA;
+    color: #6D929B;
+    border: none;
+}
+.badge{
+    background-color: #6D929B;
+    color: #F5FAFA;
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    color: #fff;
+    background-color: #6D929B;
+    border-color: #6D929B;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+}

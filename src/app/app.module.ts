@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchComponent } from './components/content/search/search.component';
 import { CompletionComponent } from './components/content/completion/completion.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ProductsService } from './products.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

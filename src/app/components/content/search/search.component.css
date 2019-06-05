@@ -1,0 +1,48 @@
+.searchContainer{
+    margin: 28px;
+    outline: none!important;
+}
+
+.btn-buscar{
+    background-color: #6D929B;
+    margin-left: 4px;
+    height: 38px;
+    border: 1px solid #F5FAFA;
+    outline: none!important;
+    color: #F5FAFA;
+}
+.form-control:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    border-color:#6D929B;
+}
+
+.table{
+    margin-top: 25px;
+}
+
+thead{
+    background-color: #6D929B;
+    color: #F5FAFA;
+}
+.custom-select:focus {
+    border-color: #6D929B!important;
+    outline: 0;
+    box-shadow: none;
+    
+}
+
+.agregar{
+    margin-left: 25px;
+    color:#F5FAFA;
+    background-color: #6D929B;
+    border: none;
+    outline: none;
+}
+.agregar:hover{
+   
+    color:#6D929B;
+    background-color: #F5FAFA;
+    
+}

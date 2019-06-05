@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductsService } from 'src/app/products.service';
 
 @Component({
   selector: 'app-completion',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./completion.component.css']
 })
 export class CompletionComponent implements OnInit {
-
-  constructor() { }
+  cart = {}
+  constructor(private _productService: ProductsService) { }
 
   ngOnInit() {
+    this.cart = this._productService.getCart();
+    console.log(this.cart);
   }
 
 }

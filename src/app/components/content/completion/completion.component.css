@@ -1,0 +1,47 @@
+.completionContainer{
+    margin: 28px;
+    outline: none!important;
+}
+.total{
+    background-color: #6D929B;
+    color: #F5FAFA;
+}
+.btn-link:hover{
+    text-decoration: none;
+}
+.btn-link{
+    text-decoration: none;
+    color: #000;
+}
+.badge-header{
+    height: 20px;
+    justify-self: center;
+}
+
+.badge-primary{
+    background-color: #6D929B;
+    color: #F5FAFA;
+}
+.end-div{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.end-button{
+    background-color: #6D929B;
+    color: #F5FAFA;
+    border: 1px solid #F5FAFA;
+    height: 50px;
+}
+.end-button:hover{
+    background-color: #F5FAFA;
+    color: #6D929B;
+    border: 1px solid #6D929B;
+    
+}
+
+.end-button:focus{
+   outline: none;
+   box-shadow: none;
+    
+}
